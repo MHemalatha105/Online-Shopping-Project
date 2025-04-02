@@ -1,0 +1,424 @@
+*{box-sizing: border-box;}
+
+body{width: 100%;margin: 0;padding: 0;}
+
+
+#header
+{display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 20px 80px;
+background:rgb(219, 233, 140);
+
+top: 0;
+left: 0;
+z-index: 999;
+width: 100%;}
+
+
+
+ 
+#navbar
+{ 
+  display: flex;
+align-items: center;
+justify-content: center;}
+
+#navbar li
+{list-style: none;
+padding: 5px;
+position: sticky;
+}
+
+#navbar li a {
+ text-align: right;
+  display: block;
+  color: #0e0d0d;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition:0.3s ease ;
+  font-size: 30px;
+  
+}
+
+
+#navbar li a:hover,
+#navbar li a.active
+{color:orangered;}
+
+#navbar li a.active::after,
+#navbar li a:hover::after
+{content: "";
+width: 30%;
+height: 4px;
+background-color:rgb(220, 236, 147);
+bottom: -4px;
+left: 20px;}
+
+
+
+
+
+
+/*Nature*/
+#natureText h1
+{
+  margin-left: 20%;
+font-size: 100px;
+font-weight: bolder;
+margin-bottom: 20px;
+}
+#nature-background
+
+{
+  background-image: url(Images/nature-1686808887\ copy.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/*#nature{background-image: url(Images/nature-1686808887.jpg);height: 400px;width: 100%;background-size:contain;margin-top: 5px;}*/
+#nature h1{font-size: 50px;padding: 20px;margin-left: 200px;margin-top: 70px;margin-top: 70px;}
+#nature p{font-size: 30px;margin-top: 50px;margin-left: 370px;}
+#nature-list{  padding: 100px 50px 50px 100px;}
+.nature-box{display: flex;}
+.nature-img{height: 400px;width: 500px;border-radius: 20px;background-size: cover;margin-bottom: 80px;margin-top: 40px;}
+#n1{background-image: url(Images/Soils\ in\ Food\ Systems.jpg);}
+#n2{background-image: url(Images/plastic.jpg);}
+#n3{background-image: url(Images/nature3.jpg);}
+#n4{background-image: url(Images/nature.jpg);}
+#n5{background-image: url(Images/Crime.jpg);}
+#n6{background-image: url(Images/plant.jpg);}
+.nature-details{line-height: 40px;margin-left: 50px;font-size: larger;width: 60%;}
+.nature-box a {text-decoration: none;color: green;}
+.nature-box h4{color: orangered;font-size: 25px;}
+.nature-box h1{color: lawngreen;}
+
+
+/*Space*/
+#SpaceText h1
+{
+  margin-left: 20%;
+font-size: 100px;
+font-weight: bolder;
+margin-bottom: 20px;
+}
+#space-background
+{
+background-image: url(Images/Jupiter-space.jpg);
+background-size: cover;
+
+background-repeat: no-repeat;
+}
+
+#Space h1{font-size: 50px;padding: 20px;margin-left: 200px;margin-top: 70px;margin-top: 70px;}
+#Space p{font-size: 30px;margin-top: 50px;margin-left: 370px;}
+#Space-list{  padding: 100px 50px 50px 100px;}
+.Space-box{display: flex;}
+.Space-img{height: 400px;width: 500px;border-radius: 20px;background-size: cover;margin-bottom: 80px;margin-top: 40px;}
+#s1{background-image: url(Images/moon.webp);}
+#s2{background-image: url(Images/mercury.jpg);}
+#s3{background-image: url(Images/Mars.jpg);}
+#s4{background-image: url(Images/yet.webp);}
+
+.Space-details{line-height: 40px;margin-left: 50px;font-size: larger;width: 60%;}
+.Space-box a {text-decoration: none;color: green;}
+.Space-box h4{color: orangered;font-size: 25px;}
+.Space-box h1{color: lawngreen;}
+
+/*Crime*/
+
+#CrimeText h1
+{
+  margin-left: 20%;
+font-size: 100px;
+font-weight: bolder;
+margin-bottom: 20px;
+}
+#Crime-background
+{
+background-image: url(Images/crime\ background.png);
+background-size: cover;
+
+background-repeat: no-repeat;
+}
+
+#Crime h1{font-size: 50px;padding: 20px;margin-left: 200px;margin-top: 70px;margin-top: 70px;}
+#Crime p{font-size: 30px;margin-top: 50px;margin-left: 370px;}
+#Crime-list{  padding: 100px 50px 50px 100px;}
+.Crime-box{display: flex;}
+.Crime-img{height: 400px;width: 500px;border-radius: 20px;background-size: cover;margin-bottom: 80px;margin-top: 40px;}
+#c1{background-image: url(Images/Crime-and-Society.webp);}
+#c2{background-image: url(Images/Best-Criminology.jpg);}
+#c3{background-image: url(Images/two\ lovebrids.webp);}
+#c4{background-image: url(Images/man\ crime.webp);}
+
+.Crime-details{line-height: 40px;margin-left: 50px;font-size: larger;width: 60%;}
+.Crime-box a {text-decoration: none;color: green;}
+.Crime-box h4{color: orangered;font-size: 25px;}
+.Crime-box h1{color: lawngreen;}
+
+
+/*Health*/
+
+#HealthText h1
+{
+  margin-left: 20%;
+font-size: 100px;
+font-weight: bolder;
+margin-bottom: 20px;
+}
+#Health-background
+{
+background-image: url(Images/healthBackground.webp);
+background-size: cover;
+
+background-repeat: no-repeat;
+}
+
+#Health h1{font-size: 50px;padding: 20px;margin-left: 200px;margin-top: 70px;margin-top: 70px;}
+#Health p{font-size: 30px;margin-top: 50px;margin-left: 370px;}
+#Health-list{  padding: 100px 50px 50px 100px;}
+.Health-box{display: flex;}
+.Health-img{height: 400px;width: 500px;border-radius: 20px;background-size: cover;margin-bottom: 80px;margin-top: 40px;}
+#h1{background-image: url(Images/Nutrition.jpg);}
+#h2{background-image: url(Images/Happiness\ and\ air\ quality.jpg);}
+#h3{background-image: url(Images/Impact\ of\ COVID-19\ on\ food\ security.jpg);}
+#h4{background-image: url(Images/fats\ with\ ischemic\ heart\ disease.jpg);}
+
+.Health-details{line-height: 40px;margin-left: 50px;font-size: larger;width: 60%;}
+.Health-box a {text-decoration: none;color: green;}
+.Health-box h4{color: orangered;font-size: 25px;}
+.Health-box h1{color: lawngreen;}
+
+
+
+/*homepage*/
+h1
+{
+  text-align: start;
+font-size: 50px;
+font-weight: bolder;
+margin-bottom: 20px;
+}
+
+
+#page-header
+{
+
+width: 100%;
+height: 300px;
+background-size: cover;
+display: flex;
+flex-direction: column;
+justify-content: center;
+color: rgb(214, 70, 17);
+
+}
+
+#page-header h2{margin-bottom: 1px; font-size: 50px;margin-left: 500px;margin-top: 50px;}
+
+#page-header p{font-size: 35px;font-weight: bolder;margin-left: 400px;color: gold;}
+
+#pagination{text-align: center;}
+
+
+
+
+
+/*categories*/
+
+#headercategories 
+{ 
+  display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 20px 80px;
+background:rgb(230, 250, 204);
+position: sticky;
+top: 0;
+left: 0;
+z-index: 999;
+width: 100%;}
+
+#categories-text h1 
+
+{
+  text-align: center;
+
+}
+h2
+{
+  margin-left: 20%;
+}
+
+/*login-page*/
+
+
+#background
+{
+  background-image: url(Images/newspapaer.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#login-background
+{width: 30%;
+ background-color: #fff;
+height: 400%;
+
+
+margin-left: 30%;
+margin-top: 100px;
+border-radius: 20px;
+}
+
+#login-background h1
+{text-align: center;
+font-size: 100px;
+font-weight: bolder;
+
+margin-bottom: 20px;}
+
+#login-background h3
+{text-align: center;
+  color: black;
+  font-size:30px;}
+
+#d2{margin-top: 20px;}
+
+#login #d1 label
+{font-size: 20px;
+margin-left: 80px;
+font-weight: 300;}
+
+#login #d2 label
+{font-size: 20px;
+  
+margin-left: 80px;
+font-weight: 300;}
+
+#login #d2 input{margin-left: 35px;}
+
+#login input{margin-left: 30px;border: none;height: 30px;}
+
+#login button{margin-left: 200px;width: 100px;height: 40px;font-size: larger;margin-top: 20px;}
+
+/*create account*/
+#CA-background
+{
+  background-image: url(Images/background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#create-background
+{width: 30%;
+height: 400px;
+background-color: #fff;
+margin-left: 30%;
+margin-top: 100px;
+border-radius: 20px;
+}
+
+#create-background h1
+{text-align: center;
+font-size: 50px;
+font-weight: bolder;
+margin-bottom: 20px;}
+
+#create-background h3
+{text-align: center;font-size:27px;}
+
+#d2{margin-top: 20px;}
+
+#create #d1 label
+{font-size: 20px;
+margin-left: 80px;
+font-weight: 300;
+margin-bottom: 30px;}
+
+#d1{margin-top: 20px;}
+
+#button {
+  width: 30%;
+  height: 50px;
+ 
+  font-size: 10px;
+}
+
+/*response*/
+#res h1
+{
+  text-align: center;
+font-size: 50px;
+font-weight: bolder;
+margin-bottom: 20px;
+}
+
+
+
+/*blog*/
+#blog{background-image: url(Images/Articles.jpg);height: 400px;width: 100%;background-size: cover;margin-top: 5px;}
+#blog h1{font-size: 50px;padding: 20px;margin-left: 200px;margin-top: 70px;margin-top: 70px;}
+#blog p{font-size: 30px;margin-top: 50px;margin-left: 370px;}
+#blog-list{  padding: 100px 50px 50px 100px;}
+.blog-box{display: flex;}
+.blog-img{height: 400px;width: 500px;border-radius: 20px;background-size: cover;margin-bottom: 80px;margin-top: 40px;}
+#b1{background-image: url(Images/Soils\ in\ Food\ Systems.jpg);}
+#b2{background-image: url(Images/diamond.png);}
+#b3{background-image: url(Images/ozone.jpg);}
+#b4{background-image: url(Images/nature.jpg);}
+#b5{background-image: url(Images/Crime.jpg);}
+#b6{background-image: url(Images/plant.jpg);}
+.blog-details{line-height: 40px;margin-left: 50px;font-size: larger;width: 60%;}
+.blog-box a {text-decoration: none;color: green;}
+.blog-box h4{color: orangered;font-size: 25px;}
+.blog-box h1{color: lawngreen;}
+
+/*dropdown*/
+
+.dropdown ul {
+  list-style: none;
+  text-align: center;
+  }
+  .dropdown ul li {
+  display: inline-block;
+  position: relative;
+  }
+  ul li a {
+  display: block;
+  color: #FFF;
+  text-decoration: none;
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  margin-right: 40px;
+  
+  border-radius: 5px;
+  height: 20px;
+  }
+  ul li ul.dropdown li {
+  display: block;
+  
+  }
+   ul li ul.dropdown {
+  width:200px;
+  background:rgb(225, 223, 133);
+  position: absolute;
+  z-index: 999;
+  display: none;
+  border-radius: 20px;
+  box-shadow: 5px 2px 5px;
+  text-align: left;
+  }
+  .dropdown ul li a:hover {
+  background: #FFF;
+  }
+   ul li:hover ul.dropdown{
+  display: block;
+  }
+
+  
+
